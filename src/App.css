@@ -1,0 +1,107 @@
+body {
+  background-image: url('/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Cinzel', serif;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Change to column */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center; /* Center the title */
+}
+
+.title {
+  font-size: 2rem; /* Adjusted font size */
+  margin-bottom: 2rem; /* Increased margin */
+  color: white; /* Change color to white */
+}
+
+.App {
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly more transparent */
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 700px; /* Increased max-width */
+  width: 90%; /* Use percentage for responsiveness */
+  position: relative; /* For positioning corner icons */
+  border: 2px solid rgba(255, 255, 255, 0.2); /* Add a subtle border */
+}
+
+.corner-icon {
+  position: absolute;
+  width: 40px; /* Adjust size */
+  height: 40px;
+}
+
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+.quote-container {
+  padding: 4rem 2rem; /* Increased padding */
+  margin: 2rem 0;
+  min-height: 250px; /* Ensure a minimum height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-name {
+  font-size: 1.8rem; /* Increased font size */
+  font-style: italic;
+  color: white;
+}
+
+.quote {
+  font-size: 1.5rem; /* Increased font size */
+  margin-top: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem; /* Increased margin */
+}
+
+.dota-logo {
+  width: 40px; /* Adjust size */
+  height: 40px;
+  margin: 0 1rem;
+}
+
+button {
+  background-color: #8B0000; /* Dark red color */
+  color: white;
+  border: 2px solid #A52A2A; /* Brownish-red border */
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  font-family: 'Cinzel', serif;
+}
+
+button:hover {
+  background-color: #A52A2A; /* Lighter red on hover */
+}
